@@ -21,9 +21,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/h5bp.css">
-
+  <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
   <!-- loads your css -->
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animate.css">
 
   <!-- loads jquery and initializr shims -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -43,6 +44,7 @@
 
     <section id="cover-0" class="cover">
       <div class="baselayer" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -75px;" data-anchor-target="#cover-0">
+          <h1>Project Iberia</h1>
       </div>
     </section>
 
@@ -52,20 +54,19 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center">
-              <!--<h1>Hello, World</h4>-->
-              <h1 class="animated infinite bounce">Hello World</h1>
+              <h1>Exploring the World of Surrealism</h4>
               <hr>
             </div>
           </div>
 
           <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when a printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <p></p>
             </div>
           </div>
 
           <div class="row text-center">
-            <div class="glyphicon glyphicon-heart example-glyphs"></div>
+            <!-- <div class="glyphicon glyphicon-heart example-glyphs"></div> -->
           </div>
 
           <br>
@@ -105,21 +106,21 @@
 
           <!-- first row of teammates -->
           <div class="row">
-            <div class="col-sm-4 text-center">
+            <div class="col-sm-4 text-center wow slideInLeft" data-wow-offset="200">
               <p class="testimonial">
                 <img src="img/kitten.jpg" class="img-circle aligncenter" alt="">
               </p>
               <h6>Name Name</h6>
               <p class="centered testimonial">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
             </div>
-            <div class="col-sm-4 text-center">
+            <div class="col-sm-4 text-center wow slideInLeft" data-wow-offset="200">
               <p class="testimonial">
                 <img src="img/kitten.jpg" class="img-circle aligncenter" alt="">
               </p>
               <h6>Other Name</h6>
               <p class="centered testimonial">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words.</p>
             </div>
-            <div class="col-sm-4 text-center">
+            <div class="col-sm-4 text-center wow slideInLeft" data-wow-offset="200">
               <p class="testimonial">
                 <img src="img/may.jpg" class="img-circle aligncenter" alt="">
               </p>
@@ -131,25 +132,25 @@
 
           <!-- second row of teammates -->
           <div class="row">
-            <div class="col-sm-4 text-center">
+            <div class="col-sm-4 text-center wow slideInRight" data-wow-offset="200">
               <p class="testimonial">
                 <img src="img/kitten.jpg" class="img-circle aligncenter" alt="">
               </p>
-              <h6>Name Name</h6>
+              <h6>Bad-Ass Kitten #1</h6>
               <p class="centered testimonial">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
             </div>
-            <div class="col-sm-4 text-center">
+            <div class="col-sm-4 text-center wow slideInRight" data-wow-offset="200">
               <p class="testimonial">
                 <img src="img/kitten.jpg" class="img-circle aligncenter" alt="">
               </p>
-              <h6>Other Name</h6>
+              <h6>Bad-Ass Kitten #2</h6>
               <p class="centered testimonial">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words.</p>
             </div>
-            <div class="col-sm-4 text-center">
+            <div class="col-sm-4 text-center wow slideInRight" data-wow-offset="200">
               <p class="testimonial">
                 <img src="img/kitten.jpg" class="img-circle aligncenter" alt="">
               </p>
-              <h6>Other Name</h6>
+              <h6>Bad-Ass Kitten #3</h6>
               <p class="centered testimonial">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words.</p>
             </div>
           </div>
@@ -190,6 +191,10 @@
 
   <!-- load my js -->
   <script src="js/main.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
   <script>
