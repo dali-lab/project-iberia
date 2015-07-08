@@ -39,6 +39,7 @@ body, html {
   font-family: "Roboto";
   font-size: 1em;
 }
+
 h1, h2, h3 {
   font-weight: 700;
   text-align: center;
@@ -123,7 +124,14 @@ footer {
 
 #cover-0 .baselayer {
   background-color: #000000;
-  background-image: url('../img/cover0.jpg');
+  background-image: url('http://i.imgur.com/CRIgz9t.jpg');
+}
+
+#cover-0 h1{
+    float: right;
+    margin: 20% 10% 0 0;
+    font-size: 6em;
+
 }
 #cover-0 .covercontainer {
   z-index: 80;
@@ -136,7 +144,7 @@ footer {
 
 #cover-1 .baselayer {
   background-color: #000000;
-  background-image: url('../img/random_butterfly.jpg');
+  background-image: url('http://cache26.fansshare.com/photo/salvadordali/salvador-dali-wallpaper-1225832928.jpg');
 }
 #cover-1 .covercontainer {
   z-index: 80;
@@ -149,10 +157,15 @@ footer {
 /* Content 0*/
 
 #content-0 .baselayer {
-  background-image: url('../img/beigespeckle_background.png');
+  background-image: url('http://wallpaperstock.net/old-paper-texture_wallpapers_34279_1920x1080.jpg');
   padding-top: 20px;
 }
 
+#content-0 h1{
+    font-family: 'Poiret One', cursive;
+    color: #000;
+
+}
 /* Content 1*/
 
 #content-1 .baselayer {
